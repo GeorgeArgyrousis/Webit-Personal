@@ -151,3 +151,35 @@ ul{
 	font-size: 16px;
 	color: grey;
 }
+
+footer{
+	background-color: gray;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+footer .round-link{
+	font-size: 1.6em;
+  	width: 1.6em;
+  	text-align: center;
+  	line-height: 1.6em;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 0.8em;
+	border-style: solid;
+	border-width: 1px;
+	color: white;
+	text-align: center;
+}
+
+footer a:hover{
+	color: gray;
+	background-color: white;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.last{
+	margin-bottom: 100px;
+}
