@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Webit</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/main.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 	</head>
@@ -17,24 +18,32 @@
 				<a class="center" href="#"><img class="profile" src="assets/profile.jpg"></a>
 			</header>
 
-			<section>
-				<h2 class="project">1. Projects that I care about</h2>
+			<section class="first">
+				<div class="time-wrapper">
+					<h2 class="project">1. Projects that I care about</h2>
+					<span class="project">April 9th 2018</span>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<img src="assets/secondLookingBack.png">
 				<form action="">
-					<button class="project-button">Chat with me</button>
+					<button class="project-background">Chat with me</button>
 				</form>
+				<div class="line project-background"></div>
 			</section>
 
 			<section>
-				<h2 class="thoughts">2. Read some of my thoughts</h2>
+				<div class="time-wrapper">
+					<h2 class="thoughts">2. Read some of my thoughts</h2>
+					<span class="thoughts">April 9th 2018</span>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<img src="assets/secondLookingBack.png">
 				<form action="">
-					<button class="thoughts-button">Chat with me</button>
+					<button class="thoughts-background">Chat with me</button>
 				</form>
+				<div class="line thoughts-background"></div>
 			</section>
 
 			<section>
@@ -43,18 +52,31 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<img src="assets/secondLookingBack.png">
 				<form action="">
-					<button class="about-button">Chat with me</button>
+					<button class="about-background">Chat with me</button>
 				</form>
+				<div class="line about-background"></div>
 			</section>
 
 			<section class="last contact">
-				<h2>4. Come chat with me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<img src="assets/secondLookingBack.png">
-				<form action="">
-					<button class="contact-button">Chat with me</button>
+				<h2>4. Come and chat with me</h2>
+				<form id="contact" name="contact" action="php/send_email.php" method="post">
+					<div class="group-outer">
+						<div class="group-inner">
+							<label for="first_name">First Name</label>
+							<input type="text" name="first_name">
+						</div>
+						<div class="group-inner">
+							<label for="email">Email Address</label>
+							<input type="text" name="email">
+						</div>
+					</div>
+					<div class="group-outer-long">
+						<label for="content">What do you want to say?</label>
+						<textarea rows="10" cols="40" name="content"></textarea>
+					</div>
+					<button type="submit" class="contact-background">Chat with me</button>
 				</form>
+				<div class="line contact-background"></div>
 			</section>
 
 			<footer>
@@ -66,6 +88,7 @@
 		<!-- the navigation links -->
 		<div class="sidebar">
 			<ul>
+				<label class="center cursor" for="toggle"><i class="fas fa-bars burger"></i></label>
 				<li><p><a href="#">Webit</a> is my personal website. A place to display my projects and express my thoughts.</p></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">Thoughts</a></li>
