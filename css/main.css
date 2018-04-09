@@ -1,3 +1,10 @@
+/*
+#9CA0B3
+#7A7E96
+#847891
+#685D79
+*/
+
 body{
 	padding: 0px;
 	margin: 0px;
@@ -183,3 +190,37 @@ footer a:hover{
 .last{
 	margin-bottom: 100px;
 }
+
+.project{
+	color: #9CA0B3;
+}
+
+.project-button{
+	background-color: #9CA0B3;
+}
+
+.thoughts{
+	color: #7A7E96;
+}
+
+.thoughts-button{
+	background-color: #7A7E96;
+}
+
+.about{
+	color: #847891;
+}
+
+.about-button{
+	background-color: #847891;
+}
+
+.contact{
+	color: #685D79;
+}
+
+.contact-button{
+	background-color: #685D79;
+}
+
+
