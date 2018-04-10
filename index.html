@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=520, target-densitydpi=high-dpi" />
+		<meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml; charset=utf-8" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
 		<title>Webit</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/main.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 	</head>
@@ -17,7 +21,8 @@
 				<a class="center" href="#"><img class="logo" src="assets/svg/Asset 2.svg"></a>
 				<a class="center" href="#"><img class="profile" src="assets/profile.jpg"></a>
 			</header>
-
+			
+			<!-- the main content of the index page -->
 			<section class="first">
 				<div class="time-wrapper">
 					<h2 class="project">1. Projects that I care about</h2>
@@ -27,7 +32,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<img src="assets/secondLookingBack.png">
 				<form action="">
-					<button class="project-background">Chat with me</button>
+					<button class="project-background">My Projects</button>
 				</form>
 				<div class="line project-background"></div>
 			</section>
@@ -41,7 +46,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<img src="assets/secondLookingBack.png">
 				<form action="">
-					<button class="thoughts-background">Chat with me</button>
+					<button class="thoughts-background">My Blog</button>
 				</form>
 				<div class="line thoughts-background"></div>
 			</section>
@@ -52,17 +57,17 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
 				<img src="assets/secondLookingBack.png">
 				<form action="">
-					<button class="about-background">Chat with me</button>
+					<button class="about-background">About Me</button>
 				</form>
 				<div class="line about-background"></div>
 			</section>
 
 			<section class="last contact">
 				<h2>4. Come and chat with me</h2>
-				<form id="contact" name="contact" action="php/send_email.php" method="post">
+				<form id="contact" method="POST" action="http://serverlessforms.com/api/form/ae8d9c94-a66d-57cd-9986-be5e6aa56fd9/form-response">
 					<div class="group-outer">
 						<div class="group-inner">
-							<label for="first_name">First Name</label>
+							<label for="name">First Name</label>
 							<input type="text" name="first_name">
 						</div>
 						<div class="group-inner">
@@ -78,6 +83,7 @@
 				</form>
 				<div class="line contact-background"></div>
 			</section>
+			<!-- the main content of the index page -->
 
 			<footer>
 				<a class="round-link center" href="https://twitter.com/ge__ar"><i class="fab fa-twitter"></i></a>
@@ -89,7 +95,7 @@
 		<div class="sidebar">
 			<ul>
 				<label class="center cursor" for="toggle"><i class="fas fa-bars burger"></i></label>
-				<li><p><a href="#">Webit</a> is my personal website. A place to display my projects and express my thoughts.</p></li>
+				<li><p><a href="index.html">Webit</a> is my personal website. A place to display my projects and express my thoughts.</p></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">Thoughts</a></li>
 				<li><a href="#">About</a></li>
