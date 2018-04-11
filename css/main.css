@@ -1,23 +1,25 @@
 /*
-#9CA0B3
-#7A7E96
-#847891
-#685D79
+#FEAE8D
+#C8508A
+#6E2AFD
+#B75BE9
 */
+
 
 body{
 	padding: 0px;
 	margin: 0px;
 	font-size: 19px;
-	font-family: arial;
+	font-family: Arial;
 }
 
 .page-wrapper{
 	position: relative;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-left: 0px;
+	padding: 0;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
@@ -59,6 +61,28 @@ section{
 	margin-right: auto;
 }
 
+.first img{
+	align-self: center;
+	width: 1600px;
+}
+
+.first form button{
+	background-color: #fd625f;
+	background-image: -webkit-linear-gradient(left, #fd625f 0%, #a738a7 100%);
+	background-image: -o-linear-gradient(left, #fd625f 0%, #a738a7 100%);
+	background-image: linear-gradient(to right, #fd625f 0%, #a738a7 100%);	
+	border-radius: 50px;
+	width: 170px;
+	height: 50px;
+	box-shadow: 0px 10px 18px rgba(167,56,167,0.5);
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.first form button:hover{
+	box-shadow: 0px 5px 18px rgba(167,56,167,0.5);
+}
+
 section .time-wrapper{
 	display: flex;
 	padding-bottom: 20px;
@@ -68,7 +92,8 @@ section .time-wrapper{
 
 section .time-wrapper span{
 	align-self: center;
-	font-size: 14px;
+	font-size: 1em;
+
 }
 
 section .time-wrapper h2{
@@ -101,7 +126,6 @@ section form button{
 	border: none;
     color: white;
     cursor: pointer;
-    padding: 25px 25px;
     background-color: #746ac1;
 }
 
@@ -154,7 +178,7 @@ section .group-outer-long{
 section .group-outer-long textarea{
 	padding-top: 20px;
 	height: 240px;
-	width: 783px;
+	width: 782px;
 	border: none;
 	outline: none;
 	padding-left: 10px;
@@ -246,6 +270,10 @@ ul{
 }
 
 footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 	display: flex;
 	background-color: gray;
 	height: 70px;
@@ -278,7 +306,7 @@ footer a:hover{
 }
 
 .last{
-	margin-bottom: 80px;
+	margin-bottom: 140px;
 }
 
 .project{
@@ -314,6 +342,11 @@ footer a:hover{
 }
 
 @media(max-width: 800px) {
+	
+	.page-wrapper{
+		/* This is very weird */
+		width: 199%;
+	}
 
 	header{
 		position: fixed;
@@ -321,6 +354,20 @@ footer a:hover{
 		left: 0px;
 		right: 0px;
 		height: 110px;
+	}
+
+	.first img{
+		padding-top: 150px;
+		padding-bottom: 120px;
+		align-self: center;
+		width: 800px;
+		height: auto;
+	}
+
+	.first form button{
+		width: 220px;
+		height: 70px;
+		font-size: 24px;
 	}
 
 	section h2{
