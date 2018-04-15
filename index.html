@@ -20,7 +20,7 @@
 			<header>
 				<div class="upper">
 					<label class="center cursor" for="toggle"><i class="fas fa-bars burger"></i></label>
-					<a class="center" href="#"><img class="logo" src="assets/svg/Asset 4.svg"></a>
+					<a class="center" href="index.html"><img class="logo" src="assets/svg/Asset 4.svg"></a>
 				</div>
 				<img class="lower" src="assets/svg/Asset 2.svg" alt="">
 			</header>
@@ -28,18 +28,37 @@
 			<!-- the main content of the index page -->
 			<section class="first">
 				<img src="assets/svg/Asset 3.1.svg">
-				<form action="">
-					<button class="project-background">Portfolio</button>
+				<!-- Add the file to be downloaded -->
+				<form method="GET" action="assets/resume.pdf">
+					<button type="submit">Resumē</button>
 				</form>
 			</section>
 
 			<section>
 				<div class="time-wrapper">
-					<h2 class="project">1. Projects I care about</h2>
+					<h2 class="about">About me</h2>
+					<span class="about">13 / April</span>
+				</div>
+				<p>Everything I do -I believe in challenging myself, I believe in perfection.
+				The way I challenge myself is by making beautifully designed applications that are efficient and simple to use. 
+				I just happen to be great with Java. Do you want to work with me?</p>
+				<img class="profile" src="assets/profile.jpg">
+				<form action="">
+					<button class="about-background">About</button>
+				</form>
+				<div class="line about-background"></div>
+			</section>
+
+			<section>
+				<div class="time-wrapper">
+					<h2 class="project">Projects I care about</h2>
 					<span class="project">09 / April</span>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
+				<p>People seem to like programming because it is allowing them to instruct a machine. 
+				I like programming because it allows me to create. Webit is the vision of my life’s work
+				being uploaded to the web. Being accessible to millions of people providing value.</p>
+				<p>Every project that I involve myself with, I envision it as something that I would use on every day basis.
+				It takes massive action and devotion to break through unforeseen barriers that come along. But that's what it takes to see a project being realised.</p>
 				<img src="assets/project.png">
 				<form action="">
 					<button class="project-background">Projects</button>
@@ -49,31 +68,24 @@
 
 			<section>
 				<div class="time-wrapper">
-					<h2 class="thoughts">2. Read some of my thoughts</h2>
+					<h2 class="thoughts">Read some of my thoughts</h2>
 					<span class="thoughts">09 / April</span>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<img class="profile" src="assets/profile.jpg">
-				<form action="">
-					<button class="thoughts-background">Blog</button>
+				<p>I love to share my experiences in a story telling format. That usually entails myself filming a 
+				short video essay or writing about it on a blog. As I usually go above and beyond the scope of
+				the project that I am working on…</p>
+				<p>…online tutorials and digitised advice helps me better understand concepts while finding work around
+				solutions. My online stories provide my distilled experience from project realisation to project deployment
+				in an enjoyable format.</p>
+				<img class="small" src="assets/head.png">
+				<form action="https://medium.com/@bboydark24">
+					<button class="thoughts-background">Thoughts</button>
 				</form>
 				<div class="line thoughts-background"></div>
 			</section>
 
-			<section>
-				<h2 class="about">3. A little bit about me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam architecto ducimus, incidunt maxime, ab deleniti pariatur dicta iste eveniet tenetur harum. Quos modi ea provident ducimus doloribus veniam architecto, sit.</p>
-				<img class="profile" src="assets/profile.jpg">
-				<form action="">
-					<button class="about-background">About</button>
-				</form>
-				<div class="line about-background"></div>
-			</section>
-
 			<section class="last contact">
-				<h2>4. Come and chat with me</h2>
+				<h2>Come and chat with me</h2>
 				<form id="contact" method="POST" action="http://serverlessforms.com/api/form/ae8d9c94-a66d-57cd-9986-be5e6aa56fd9/form-response">
 					<div class="group-outer">
 						<div class="group-inner">
@@ -103,12 +115,12 @@
 		<!-- the navigation links -->
 		<div class="sidebar">
 			<ul>
-				<label class="cursor" for="toggle"><i class="fas fa-bars burger"></i></label>
-				<li><p><a href="index.html">Webit</a> is my personal website. A place to display my projects and express my thoughts.</p></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Thoughts</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+				<label class="cursor" for="toggle"><i class="fas fa-chevron-left burger"></i></label>
+				<li><p><a class="underline" href="index.html">Webit</a> is my personal website. A place to display my projects and express my thoughts.</p></li>
+				<li><a class="underline" href="#">Projects</a></li>
+				<li><a class="underline" href="#">Thoughts</a></li>
+				<li><a class="underline" href="#">About</a></li>
+				<li><a class="underline" href="#">Contact</a></li>
 				<li><p class="credit">George Argyrousis @ 2018 - 2019</p></li>
 			</ul>
 		</div>
