@@ -1,0 +1,80 @@
+
+.projects-section{
+	margin: 150px 0;
+}
+
+.projects-section .p-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+.projects-section .p-wrapper .left{
+	align-self: center;
+	width: 50%;
+}
+
+.projects-section .p-wrapper .right{
+	align-self: center;
+	width: 50%;
+}
+
+.projects-section .p-wrapper a img{
+	height: 400px;
+	width: auto;
+}
+
+.projects-section .p-wrapper p{
+	margin: 5px 0 0 0;
+	width: 100%;
+}
+
+.projects-section form button{
+	margin: 50px 0;
+}
+
+.projects-section .italic{
+	font-weight: 200;
+	font-style: italic;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+
+	.projects-section{
+		margin-top: 150px;
+	}
+
+	.projects-section .p-wrapper{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.projects-section .p-wrapper .left{
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 50px;
+	}
+
+	.projects-section .p-wrapper .right{
+		width: 90%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	.projects-section .p-wrapper .left{
+		width: 79%;
+	}
+	.projects-section .p-wrapper .right{
+		width: 79%;
+	}
+}
