@@ -425,18 +425,18 @@ footer a:hover{
 		margin-top: 120px;
 		margin-bottom: 120px;
 		align-self: center;
-		width: 750px;
+		width: 95%;
 		height: auto;
 	}
 
 	.first form button{
-		width: 220px;
+		width: 27%;
 		height: 70px;
 		font-size: 24px;
 	}
 
 	section{
-		width: 800px;
+		width: 96%;
 	}
 
 	section h2{
@@ -456,7 +456,7 @@ footer a:hover{
 	}
 
 	section form button{
-		width: 220px;
+		width: 27%;
 		height: 70px;
 		font-size: 24px;
 	}
@@ -599,7 +599,7 @@ footer a:hover{
 	}
 
 	section {
-		width: 720px;
+		width: 93%;
 		margin: 70px auto 70px auto;
 	}
 
