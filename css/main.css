@@ -498,9 +498,15 @@ footer a:hover{
 		font-size: 34px;
 	}
 
-	section .group-outer .group-inner label{
+	section .group-outer .group-inner input:focus ~ label,
+	section .group-outer .group-inner input:valid ~ label{
 		top: 8px;
 		font-size: 20px;
+	}
+
+	section .group-outer .group-inner label{
+		top: 26px;
+		font-size: 34px;
 	}
 
 	section .group-outer-long{
@@ -508,6 +514,12 @@ footer a:hover{
 		width: 90%;
 	}
 
+	section .group-outer-long textarea:focus ~ label,
+	section .group-outer-long textarea:valid ~ label{
+		top: 8px;
+		font-size: 20px;
+	}
+	
 	section .group-outer-long textarea{
 		width: 98%;
 		font-size: 34px;
@@ -515,8 +527,8 @@ footer a:hover{
 	}
 
 	section .group-outer-long label{
-		top: 8px;
-		font-size: 20px;
+		top: 20px;
+		font-size: 34px;
 	}
 
 	section .line{
