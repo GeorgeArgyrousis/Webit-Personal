@@ -191,11 +191,23 @@ section .group-outer .group-inner input{
 	width: 97%;
 }
 
-section .group-outer .group-inner label{
+section .group-outer .group-inner input:focus ~ label,
+section .group-outer .group-inner input:valid ~ label{
+	color: #685D79;
 	position: absolute;
 	left: 10px;
 	top: 2px;
 	font-size: 12px;
+}
+
+section .group-outer .group-inner label{
+	color: #9CA0B3;
+	position: absolute;
+	left: 14px;
+	top: 18px;
+	font-size: 22px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 section .group-outer-long{
@@ -205,6 +217,15 @@ section .group-outer-long{
 	position: relative;
 	margin-bottom: 20px;
 	width: 100%;
+}
+
+section .group-outer-long textarea:focus ~ label,
+section .group-outer-long textarea:valid ~ label{
+	color: #685D79;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	font-size: 12px;
 }
 
 section .group-outer-long textarea{
@@ -219,9 +240,12 @@ section .group-outer-long textarea{
 
 section .group-outer-long label{
 	position: absolute;
-	left: 10px;
-	top: 5px;
-	font-size: 12px;
+	color: #9CA0B3;
+	left: 14px;
+	top: 18px;
+	font-size: 22px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .logo{
