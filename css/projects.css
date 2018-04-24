@@ -72,9 +72,9 @@
 @media only screen and (max-width: 400px) {
 
 	.projects-section .p-wrapper .left{
-		width: 79%;
+		width: 100%;
 	}
 	.projects-section .p-wrapper .right{
-		width: 79%;
+		width: 100%;
 	}
 }
