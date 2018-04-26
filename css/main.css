@@ -425,8 +425,8 @@ footer a:hover{
 	}
 
 	header .lower{
-		top: 30px;
-		height: 100%;
+		top: 60px;
+		height: auto;
 		width: 100%;
 	}
 
