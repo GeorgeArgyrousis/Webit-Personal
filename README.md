@@ -17,5 +17,4 @@ Webit is my personal website. A place to display my projects and express my thou
 * The latest version of the project is on the highest numbered branch
 
 ## Bugs
-* So far the main bug of the website is that the website appears to be zoomed in when you view it on a mobile device. I have tried to change the 
-meta tags, the widths from `px` to `%` but the problem percists. Kudos to the day I find the bug...
+* So far the main bug of the website has to do with the border radius that I have implemented in the contact section that should be changed to `%`

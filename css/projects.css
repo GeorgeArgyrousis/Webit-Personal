@@ -10,24 +10,34 @@
 	width: 100%;
 }
 
-.projects-section .p-wrapper .left{
+.projects-section .p-wrapper .content{
 	align-self: center;
 	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.projects-section .p-wrapper .right{
-	align-self: center;
-	width: 50%;
+.projects-section .p-wrapper h2{
+	align-self: flex-start;
+	font-weight: 200;
 }
 
 .projects-section .p-wrapper a img{
 	height: 200px;
 	width: auto;
+	align-self: center;
+	filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.4));
+	-webkit-filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.4));
+	position: relative;
+	z-index: -100;
 }
 
 .projects-section .p-wrapper p{
 	margin: 5px 0 0 0;
 	width: 100%;
+	text-align: left;
 }
 
 .projects-section form button{
@@ -47,34 +57,35 @@
 	}
 
 	.projects-section .p-wrapper{
+		margin: 0;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 	}
 	
-	.projects-section .p-wrapper .left{
+	.projects-section .p-wrapper .content{
 		width: 90%;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
-		margin-top: 50px;
+		align-items: center;
+		margin-top: 20px;
 	}
 
-	.projects-section .p-wrapper .right{
-		width: 90%;
-		display: flex;
-		flex-direction: row-reverse;
-		justify-content: center;
-		margin-top: 50px;
+	.projects-section .p-wrapper .content h2{
+		align-self: center;
+	}
+
+	.projects-section .p-wrapper .content p{
+		align-self: center;
+		text-align: center;
 	}
 }
 
 @media only screen and (max-width: 400px) {
 
-	.projects-section .p-wrapper .left{
-		width: 100%;
-	}
-	.projects-section .p-wrapper .right{
+	.projects-section .p-wrapper{
 		width: 100%;
 	}
 }
