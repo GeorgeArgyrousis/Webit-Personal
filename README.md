@@ -1,17 +1,3 @@
+## George Argyrousis
 # Personal Website
 G. is my personal website. A place to display my projects and express my thoughts. George Argyrousis @ 2018 - 2019
-
-## Assets
-* Images and documents that are being used through the project
-
-## Css
-* The css files styling the three html pages currently on the website
-
-## Illustrator
-* The illustrator files that I used in the website and want to keep as a backup
-
-## Unused
-* All the files that are not used anymore
-
-## V<number>
-* The latest version of the project is on the highest numbered branch

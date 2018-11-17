@@ -34,12 +34,12 @@
 
 			<section>
 				<div class="time-wrapper">
-					<h2>Hey,</h2>
+					<h2>Hey</h2>
 					<span>13 / April</span>
 				</div>
-				<p>My name is George and I am a developer. I believe in challenging myself
-				by making beautifully designed applications that are efficient and simple to use.
-				I just happen to be great with Java. Do you want to work with me?</p>
+				<p>My name is George and I am a Software Developer. I believe in challenging myself
+				by making beautifully designed applications that are efficient, scalable and simple to use.
+				</p>
 				<img class="profile" src="assets/profile.jpg">
 				<form action="about.html">
 					<button>About</button>
@@ -52,8 +52,8 @@
 					<h2>Projects</h2>
 					<span>09 / April</span>
 				</div>
-				<p>Webit is a central view of all the projects that I have involved myself with. From project realisation to project actuation, design thinking helps me better understand the problem while programming allows me to execute upon it.</p>
-				<p>There is a difference between the external perception of an application and the underlying value proposition. I help to bridge the gap between strategy and execution, allowing breakthroughs of any unforeseen barrier. </p>
+				<p>This website is a central view of all the projects that I have involved myself with. From project realisation to project actuation. Design thinking helps me better understand the problem while programming allows me to execute upon it.</p>
+				<p>I believe that there is a gap between the external perception of an application and the underlying value proposition. I help to bridge the gap between strategy and execution.</p>
 				<img src="assets/project.png">
 				<form action="projects.html">
 					<button>Projēcts</button>
@@ -69,13 +69,15 @@
 				<p>Going above and beyond the project’s scope allows me to form an experience that can be shared in a story telling format. Thus, I usually find myself filming a short video essay or writing about it on a blog. </p>
 				<img class="small" src="assets/head.png">
 				<form action="https://medium.com/@bboydark24">
-					<button>Blog</button>
+					<button class="disabled">Blog</button>
 				</form>
 				<div class="line"></div>
 			</section>
 
 			<section class="last" id="contact">
-				<h2>Contact</h2>
+				<div class="time-wrapper">
+					<h1>Contact</h1>
+				</div>
 				<form id="contact" method="POST" action="http://serverlessforms.com/api/form/ae8d9c94-a66d-57cd-9986-be5e6aa56fd9/form-response">
 					<div class="group-outer">
 						<div class="group-inner">
@@ -104,21 +106,19 @@
 		</div>
 		<!-- the navigation links -->
 		<div class="sidebar">
-			<ul>
-				<div class="menu-header">
-					<label class="cursor burger" for="toggle">✕</label>
-					<li><p class="context"><a class="underline" href="index.html">G.</a> is my personal website. A place to display my projects and express my thoughts.</p></li>
-				</div>
-				<div class="menu-core">
-					<li><a class="underline" href="projects.html">Projects</a></li>
-					<li><a class="underline" href="https://medium.com/@bboydark24">Blog</a></li>
-					<li><a class="underline" href="about.html">About</a></li>
-					<li><a class="underline" href="contact.html">Contact</a></li>
-				</div>
-				<div class="menu-footer">
-					<li><p class="credit">George Argyrousis @ 2018 - 2019</p></li>
-				</div>
-			</ul>
+			<div class="menu-header menu">
+				<p class="context"><a class="underline" href="index.html">G.</a> is my personal website. A place to display my projects and express my thoughts.</p>
+				<label class="cursor burger" for="toggle">✕</label>
+			</div>
+			<div class="menu-core menu">
+				<a class="underline" href="projects.html">Projects</a>
+				<a class="underline" href="https://medium.com/@bboydark24">Blog</a>
+				<a class="underline" href="about.html">About</a>
+				<a class="underline" href="contact.html">Contact</a>
+			</div>
+			<div class="menu-footer menu">
+				<p class="credit">George Argyrousis @ 2018 - 2019</p>
+			</div>
 		</div>
 	</body>
 </html>
