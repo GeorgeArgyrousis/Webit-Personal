@@ -1,5 +1,5 @@
 # Personal Website
-Webit is my personal website. A place to display my projects and express my thoughts. George Argyrousis @ 2018 - 2019
+G. is my personal website. A place to display my projects and express my thoughts. George Argyrousis @ 2018 - 2019
 
 ## Assets
 * Images and documents that are being used through the project
@@ -7,7 +7,7 @@ Webit is my personal website. A place to display my projects and express my thou
 ## Css
 * The css files styling the three html pages currently on the website
 
-## Illustrator 
+## Illustrator
 * The illustrator files that I used in the website and want to keep as a backup
 
 ## Unused
@@ -15,6 +15,3 @@ Webit is my personal website. A place to display my projects and express my thou
 
 ## V<number>
 * The latest version of the project is on the highest numbered branch
-
-## Bugs
-* So far the main bug of the website has to do with the border radius that I have implemented in the contact section that should be changed to `%`

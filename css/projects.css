@@ -1,5 +1,6 @@
 
 .projects-section{
+	width: 100vw;
 	margin: 150px 0;
 }
 
@@ -48,6 +49,7 @@
 	font-weight: 200;
 	font-style: italic;
 	margin-top: 50px;
+	width: 95%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -63,7 +65,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-	
+
 	.projects-section .p-wrapper .content{
 		width: 90%;
 		display: flex;
@@ -78,7 +80,6 @@
 	}
 
 	.projects-section .p-wrapper .content p{
-		align-self: center;
 		text-align: center;
 	}
 }
